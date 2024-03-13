@@ -1,12 +1,46 @@
-a {
+div a {
   text-decoration: none;
   color: black;
   padding-inline: 10px;
 }
 
+span a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
 .bg-image {
   background-image: url(whiskey.jpg);
   min-height: 80dvh;
+  background-size: cover;
+  background-position: right;
+}
+
+.small-bg-image-1 {
+  background-image: url(pine_needles.jpg);
+  min-height: 20dvh;
+  background-size: cover;
+  background-position: left;
+}
+
+.small-bg-image-2 {
+  background-image: url(office.jpg);
+  min-height: 20dvh;
+  background-size: cover;
+  background-position: center;
+}
+
+.small-bg-image-3 {
+  background-image: url(yellow.jpg);
+  min-height: 20dvh;
   background-size: cover;
   background-position: right;
 }
@@ -17,8 +51,18 @@ a {
 
 .paragraph-padding {
   padding: 100px;
+  padding-left: 240px;
+  padding-right: 255px;
 }
 
 .fancy-font {
   font-family: 'Times New Roman', Times, serif;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
 }
